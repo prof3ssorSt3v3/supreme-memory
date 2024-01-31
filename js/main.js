@@ -8,6 +8,10 @@
 
   //add message listener to receive messages
   window.addEventListener('message', receiveMessage);
+
+  //window.location.assign('some url'); //same as clicking a link for current page
+  //window.open('some url', '_blank', {}); //open a new window/tab
+  //https://developer.mozilla.org/en-US/docs/Web/API/Window/open
 })();
 
 function sendMessage(msg) {
